@@ -46,8 +46,6 @@ python -m venv venv
 # Activate the virtual environment
 # On Windows:
 .\venv\Scripts\activate
-# On macOS/Linux:
-# source venv/bin/activate
 
 # Install Dependencies
 # Install all the required Python libraries from the requirements.txt file
@@ -196,3 +194,4 @@ ai-scheduling-agent/
 
 
 ```bash
+
