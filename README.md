@@ -62,7 +62,9 @@ Add your credentials: Copy the following format into your .env file and replace 
 Code snippet
 
 SENDER_EMAIL="your_email@gmail.com"
+
 SENDER_PASSWORD="your_gmail_app_password"
+
 RECEIVER_EMAIL="test_receiver_email@example.com"
 
 Important Security Note: For the SENDER_PASSWORD, you must use a Gmail App Password, not your regular Google account password. You can generate one here: https://myaccount.google.com/apppasswords
@@ -194,4 +196,5 @@ ai-scheduling-agent/
 
 
 ```bash
+
 
