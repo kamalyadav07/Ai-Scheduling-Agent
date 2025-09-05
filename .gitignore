@@ -1,0 +1,44 @@
+# --- Python Virtual Environments ---
+# Ignore the virtual environment folder to avoid committing large, OS-specific files.
+venv/
+.venv/
+env/
+.env/
+
+# --- Python Cache and Compiled Files ---
+# These are generated automatically by Python and don't need to be version controlled.
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- Sensitive Information ---
+# CRITICAL: Ignore the .env file to prevent leaking API keys and passwords.
+.env
+
+# --- IDE and Editor Specific Files ---
+# Ignore settings folders from popular editors like VS Code and PyCharm.
+.vscode/
+.idea/
+
+# --- Build and Distribution Artifacts ---
+# These are generated when you package your application.
+build/
+dist/
+*.egg-info/
+
+# --- Operating System Files ---
+# Ignore system-specific files from macOS and Windows.
+.DS_Store
+Thumbs.db
+
+# --- Logs and Temporary Files ---
+# Ignore log files and other temporary files.
+*.log
+*.tmp
+
+# --- Data Files (Tailored for Your Project) ---
+# It's good practice to ignore data files that are generated or modified by your script.
+# You might want to keep the initial `patients.csv` but ignore the generated reports.
+data/admin_report.xlsx
+data/doctor_schedules.xlsx
